@@ -2,12 +2,7 @@
 
 
 @section('content')
-@foreach ($posts as $post)
-@foreach ($post->likes as $like)
 
-@endforeach
-
-@endforeach
 @if(session('success'))
 
       <div class="alert alert-primary" role="alert">
